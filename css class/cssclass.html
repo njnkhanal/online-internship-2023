@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- for external css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- internal css in style tag -->
+    <style>
+      div.inline-example {
+        background-color: blue;
+      }
+      .inline-head {
+        color: white;
+      }
+      .inline-paragraph {
+        color: rgb(255, 221, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- inline css -->
+    <div style="background-color: red; color: white">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+        aspernatur quia nobis quisquam nemo voluptatibus. Eaque laboriosam nam
+        expedita, quidem voluptatem sed recusandae veniam blanditiis eum libero
+        quis. Adipisci, iure?
+      </p>
+    </div>
+    <!-- inline css end -->
+
+    <!-- internal css -->
+    <div class="inline-example">
+      <h1 class="inline-head">This is internal css example</h1>
+      <p class="inline-paragraph">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
+        blanditiis ullam dicta quae qui nostrum distinctio, nemo velit magnam
+        odio ut tempora, aliquid porro esse voluptatem, adipisci quis commodi
+        nulla.
+      </p>
+      <a href="#">Click me to go ahead.</a>
+    </div>
+
+    <p class="inline-example">test</p>
+
+    <!-- external start -->
+    <div class="external-box">
+      <h1>External</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste at
+        eveniet harum sed reprehenderit incidunt quasi consequatur ipsam sequi
+        molestiae, nihil non quis mollitia architecto sit. Ex consectetur unde
+        deserunt!
+      </p>
+    </div>
+  </body>
+</html>
