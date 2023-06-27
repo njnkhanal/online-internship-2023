@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-container {
+  width: 600px;
+  height: 600px;
+  background-color: aquamarine;
+  position: relative;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position: absolute;
+}
+.b2 {
+  background-color: rgb(3, 46, 46);
+  bottom: -100px;
+  right: -100px;
+}
+
+.img-box {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fs1.picswalls.com%2Fwallpapers%2F2016%2F03%2F29%2Fbeautiful-nature-high-definition_042323787_304.jpg&f=1&nofb=1&ipt=0fbdd9f16c2d368939b2cc7dc2c0587d815aa920a4e167df149ba18d98f9a463&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid 2px rgb(169, 169, 169);
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: 2px 2px 10px green;
+}
+
+.img-box2 {
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwc1706622.jpg&f=1&nofb=1&ipt=a96ba86a0446f8e90a48b9d7beac84ae3932b25ccdd329dc5be3af3cf96cc1c2&ipo=images");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  right: 100px;
+  bottom: 150px;
+  box-shadow: 2px 2px 10px green;
+  border: solid 2px rgb(169, 169, 169);
+  border-radius: 10px;
+  z-index: 2;
+}
+.facebook-icon {
+  display: inline-block;
+  padding: 5px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* for profiel */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo-square {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+}
+.side-photo {
+  background-color: black;
+  width: calc(100% - 200px);
+  height: 200px;
+}
