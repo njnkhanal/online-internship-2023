@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Mukta", sans-serif;
+}
+footer {
+  background-color: rgb(219, 219, 219);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+}
+.col {
+  width: calc(100% / 3);
+  border-right: solid 1px rgb(159, 159, 159);
+  padding: 10px 30px;
+}
+.logo {
+  width: 100%;
+}
+.foot-content {
+  color: rgb(73, 73, 73);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.foot-content p {
+  /* padding: 5px 0; */
+}
+.foot-head {
+  color: brown;
+  font-weight: 500;
+  font-size: 25px;
+}
+.flex {
+  display: flex;
+}
+.flex div {
+  width: 50%;
+}
+.sm-title {
+  font-size: 14px;
+  line-height: 20px;
+}
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.short-text {
+  line-height: 20px;
+  padding-top: 20px;
+}
+.social-icons {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-icons a {
+  font-size: 25px;
+  color: brown;
+  padding: 0 20px;
+}
